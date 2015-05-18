@@ -12,9 +12,12 @@ checkout filename
 
 clone url
 clone -b BranchName url
-remote
-remote -v // show info
-fetch origin
+remote //show info
+remote -v // show info url
+fetch origin // check difference
+
+pull origin
+push origin master // or BranchName maybe
 
 branch BranchName
 checkout BranchName //master
