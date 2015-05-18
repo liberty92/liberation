@@ -1,0 +1,21 @@
+Lệnh git cơ bản
+init
+status
+cd ../
+
+
+
+add filename
+commit -m "message"
+rm --cache filename
+checkout filename
+
+clone url
+clone -b BranchName url
+remote
+remote -v // show info
+fetch origin
+
+branch BranchName
+checkout BranchName //master
+merge BranchName //conflict--> manually fix
